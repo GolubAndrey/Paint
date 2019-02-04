@@ -15,7 +15,7 @@ namespace Laboratory_work_1
         /// Circle constructor
         /// </summary>
         /// <param name="point_1">First point</param>
-        /// <param name="point_2"></param>
+        /// <param name="point_2">Second point</param>
         /// <param name="color">Color</param>
         /// <param name="pen_width">Pen width</param>
         public Circle(Point point_1, Point point_2, Color color, float pen_width) : base(point_1, point_2, color, pen_width)
