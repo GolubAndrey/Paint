@@ -9,6 +9,13 @@ namespace Laboratory_work_1
 {
     class Figures_creater
     {
+        /// <summary>
+        /// Figure creator
+        /// </summary>
+        /// <param name="name">Name</param>
+        /// <param name="c">Color</param>
+        /// <param name="pen_width">Pen width</param>
+        /// <returns></returns>
         public Figure Create_object(string name,Color c,float pen_width)
         {
             string full_name = string.Format("{0}.{1}",GetType().Namespace,name);
