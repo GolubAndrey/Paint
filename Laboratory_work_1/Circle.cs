@@ -22,6 +22,11 @@ namespace Laboratory_work_1
         {
         }
         
+        /// <summary>
+        /// Circle constructor
+        /// </summary>
+        /// <param name="color">Color</param>
+        /// <param name="pen_width">Pen width</param>
         public Circle(Color color, float pen_width):base(color,pen_width)
         {
 
